@@ -1,0 +1,47 @@
+window {
+    margin: 0px;
+    border: 1px solid #70675E;
+    background-color: #F5EFE5;
+    font-family: "IosevkaTermSlab Nerd Font", monospace;
+    font-size: 14px;
+}
+
+#input {
+    margin: 5px;
+    border: 1px solid #70675E;
+    color: #70675E;
+    background-color: #F5EFE5;
+    font-family: inherit;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #F5EFE5;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: #F5EFE5;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #70675E;
+    font-family: inherit;
+}
+
+#entry:selected {
+    background-color: #70675E;
+}
+
+#entry:selected #text {
+    color: #F5EFE5;
+}

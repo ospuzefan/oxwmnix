@@ -1,0 +1,46 @@
+[global]
+    font = "JetBrains Mono Nerd Font 12"
+    markup = full
+    format = "<b>%s</b>\n%b"
+    width = 360
+    height = 150
+    padding = 16
+    horizontal_padding = 16
+    offset = 0x12
+    origin = top-center
+    layer = top
+    progress_bar = true
+    progress_bar_height = 4
+    progress_bar_min_width = 328
+    progress_bar_max_width = 328
+    progress_bar_frame_width = 0
+    progress_bar_corner_radius = 0
+    frame_width = 3
+    frame_color = "#70675E"
+    corner_radius = 0
+    default_timeout = 4
+
+[urgency_low]
+    background = "#F5EFE5"
+    foreground = "#70675E"
+    frame_color = "#70675E"
+    highlight = "#70675E"
+    timeout = 3
+
+[urgency_normal]
+    background = "#F5EFE5"
+    foreground = "#70675E"
+    frame_color = "#70675E"
+    highlight = "#70675E"
+    timeout = 4
+
+[urgency_critical]
+    background = "#F5EFE5"
+    foreground = "#70675E"
+    frame_color = "#70675E"
+    highlight = "#70675E"
+    timeout = 0
+
+[dnd-bypass]
+    appname = notify-send
+    override_pause_level = 60

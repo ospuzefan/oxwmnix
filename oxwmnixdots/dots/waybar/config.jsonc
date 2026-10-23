@@ -1,0 +1,44 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 24,
+  "width": 1050,
+  "spacing": 0,
+  "margin": "1",
+
+  "modules-left": ["custom/logo", "custom/sep-left1"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "custom/date"],
+
+  "custom/logo": {
+    "format": "<span font='Symbols Nerd Font'>\uf30D</span>",
+    "tooltip": false
+  },
+
+  "custom/sep-left1": {
+    "format": "|",
+    "tooltip": false
+  },
+
+   "clock": {
+    "format": "{:L%A %H:%M}",
+    "format-alt": "{:L%d %B W%V %Y}",
+    "tooltip": false
+  },
+
+  "custom/separator": {
+    "format": "|",
+    "tooltip": false
+  },
+
+"battery": {
+    "format": "{capacity}%",
+    "format-discharging": "{capacity}%",
+    "format-charging": "{capacity}%",
+    "interval": 5,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    }
+  },
+}
